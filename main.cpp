@@ -8,6 +8,26 @@
  Purpose:  This project will take you through the process of writing a class that wraps a numeric type, beginning with writing simple member functions and ending with a fully templated class with lots of functionality. 
  
  1) write 3 UDTs named FloatType, DoubleType, IntType.
+
+    float height;
+        add( lhs, rhs );
+        subtract( lhs, rhs );
+        multiply( lhs, rhs );
+        divide( lhs, rhs );
+
+    double weight;
+        add( 3 + 9 );
+        subtract( 2 - 1 );
+        multiply( lhs, rhs );
+        divide( lhs, rhs );
+ 
+    int paw;     
+        add( 1 + 3 );
+        subtract( 4 - 2);
+        multiply( 4 * 9 );
+        divide( 6 / 2);
+
+
  
  2) give each UDT the following member functions:
         add( lhs, rhs );
